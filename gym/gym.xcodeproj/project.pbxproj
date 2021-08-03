@@ -13,30 +13,12 @@
 		9542C09826B7E768006231DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9542C09626B7E768006231DE /* Main.storyboard */; };
 		9542C09A26B7E76B006231DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9542C09926B7E76B006231DE /* Assets.xcassets */; };
 		9542C09D26B7E76B006231DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9542C09B26B7E76B006231DE /* LaunchScreen.storyboard */; };
-		958F1ED926B83DED000F5C8A /* 師大體育館1F-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1ED326B83DEC000F5C8A /* 師大體育館1F-2.jpg */; };
-		958F1EDA26B83DED000F5C8A /* 師大體育館1F in Resources */ = {isa = PBXBuildFile; fileRef = 958F1ED426B83DEC000F5C8A /* 師大體育館1F */; };
-		958F1EDB26B83DED000F5C8A /* 師大體育館1F-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1ED526B83DEC000F5C8A /* 師大體育館1F-1.jpg */; };
-		958F1EDD26B83DED000F5C8A /* 師大體育館1F.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 958F1ED726B83DED000F5C8A /* 師大體育館1F.mtl */; };
-		958F1EDE26B83DED000F5C8A /* 師大體育館1F.obj in Resources */ = {isa = PBXBuildFile; fileRef = 958F1ED826B83DED000F5C8A /* 師大體育館1F.obj */; };
 		958F1F7026B8604B000F5C8A /* person.obj in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F6E26B8604B000F5C8A /* person.obj */; };
 		958F1F7126B8604B000F5C8A /* person.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F6F26B8604B000F5C8A /* person.mtl */; };
-		958F1F8426B8D456000F5C8A /* model.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7326B8D451000F5C8A /* model.mtl */; };
-		958F1F8526B8D456000F5C8A /* Translucent_Glass_Safety.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7426B8D451000F5C8A /* Translucent_Glass_Safety.jpg */; };
-		958F1F8626B8D456000F5C8A /* _Translucent_Glass_Block_Dark_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7526B8D451000F5C8A /* _Translucent_Glass_Block_Dark_1.jpg */; };
-		958F1F8726B8D456000F5C8A /* Polished_Concrete_New.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7626B8D452000F5C8A /* Polished_Concrete_New.jpg */; };
-		958F1F8826B8D456000F5C8A /* Translucent_Glass_Block_Dark1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7726B8D452000F5C8A /* Translucent_Glass_Block_Dark1.jpg */; };
-		958F1F8926B8D456000F5C8A /* Tile_Travertine_2inch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7826B8D452000F5C8A /* Tile_Travertine_2inch.jpg */; };
-		958F1F8A26B8D456000F5C8A /* Beton_glad.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7926B8D452000F5C8A /* Beton_glad.bmp */; };
-		958F1F8B26B8D456000F5C8A /* model.obj in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7A26B8D453000F5C8A /* model.obj */; };
-		958F1F8C26B8D456000F5C8A /* Metal_Seamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7B26B8D453000F5C8A /* Metal_Seamed.jpg */; };
-		958F1F8D26B8D456000F5C8A /* Cladding_Stucco_White.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7C26B8D454000F5C8A /* Cladding_Stucco_White.jpg */; };
-		958F1F8E26B8D456000F5C8A /* Translucent_Glass_Block_Dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7D26B8D454000F5C8A /* Translucent_Glass_Block_Dark.jpg */; };
-		958F1F8F26B8D456000F5C8A /* Tile_Travertine_2_inch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7E26B8D454000F5C8A /* Tile_Travertine_2_inch.jpg */; };
-		958F1F9026B8D456000F5C8A /* Tile_Limestone_Large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7F26B8D455000F5C8A /* Tile_Limestone_Large.jpg */; };
-		958F1F9126B8D456000F5C8A /* _CGM_Topboard_Birch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F8026B8D455000F5C8A /* _CGM_Topboard_Birch.jpg */; };
-		958F1F9226B8D456000F5C8A /* _Cladding_Stucco_White_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F8126B8D455000F5C8A /* _Cladding_Stucco_White_1.jpg */; };
-		958F1F9326B8D456000F5C8A /* Brick_Antique_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F8226B8D455000F5C8A /* Brick_Antique_01.jpg */; };
-		958F1F9426B8D456000F5C8A /* Terrazzo_Tile_Light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F8326B8D456000F5C8A /* Terrazzo_Tile_Light.jpg */; };
+		958F1F9C26B8F34E000F5C8A /* gymScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F9B26B8F34E000F5C8A /* gymScene.scn */; };
+		958F1FA726B90C9C000F5C8A /* gymModel.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 958F1FA626B90C9C000F5C8A /* gymModel.scnassets */; };
+		958F1FAA26B9147E000F5C8A /* person.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 958F1FA926B9147E000F5C8A /* person.scnassets */; };
+		958F1FB826B93FF3000F5C8A /* desk.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 958F1FB726B93FF3000F5C8A /* desk.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,30 +30,12 @@
 		9542C09926B7E76B006231DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9542C09C26B7E76B006231DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9542C09E26B7E76B006231DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		958F1ED326B83DEC000F5C8A /* 師大體育館1F-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "師大體育館1F-2.jpg"; sourceTree = "<group>"; };
-		958F1ED426B83DEC000F5C8A /* 師大體育館1F */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "師大體育館1F"; sourceTree = "<group>"; };
-		958F1ED526B83DEC000F5C8A /* 師大體育館1F-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "師大體育館1F-1.jpg"; sourceTree = "<group>"; };
-		958F1ED726B83DED000F5C8A /* 師大體育館1F.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "師大體育館1F.mtl"; sourceTree = "<group>"; };
-		958F1ED826B83DED000F5C8A /* 師大體育館1F.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "師大體育館1F.obj"; sourceTree = "<group>"; };
 		958F1F6E26B8604B000F5C8A /* person.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = person.obj; sourceTree = "<group>"; };
 		958F1F6F26B8604B000F5C8A /* person.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = person.mtl; sourceTree = "<group>"; };
-		958F1F7326B8D451000F5C8A /* model.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model.mtl; sourceTree = "<group>"; };
-		958F1F7426B8D451000F5C8A /* Translucent_Glass_Safety.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Translucent_Glass_Safety.jpg; sourceTree = "<group>"; };
-		958F1F7526B8D451000F5C8A /* _Translucent_Glass_Block_Dark_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _Translucent_Glass_Block_Dark_1.jpg; sourceTree = "<group>"; };
-		958F1F7626B8D452000F5C8A /* Polished_Concrete_New.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Polished_Concrete_New.jpg; sourceTree = "<group>"; };
-		958F1F7726B8D452000F5C8A /* Translucent_Glass_Block_Dark1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Translucent_Glass_Block_Dark1.jpg; sourceTree = "<group>"; };
-		958F1F7826B8D452000F5C8A /* Tile_Travertine_2inch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tile_Travertine_2inch.jpg; sourceTree = "<group>"; };
-		958F1F7926B8D452000F5C8A /* Beton_glad.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Beton_glad.bmp; sourceTree = "<group>"; };
-		958F1F7A26B8D453000F5C8A /* model.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model.obj; sourceTree = "<group>"; };
-		958F1F7B26B8D453000F5C8A /* Metal_Seamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Metal_Seamed.jpg; sourceTree = "<group>"; };
-		958F1F7C26B8D454000F5C8A /* Cladding_Stucco_White.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cladding_Stucco_White.jpg; sourceTree = "<group>"; };
-		958F1F7D26B8D454000F5C8A /* Translucent_Glass_Block_Dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Translucent_Glass_Block_Dark.jpg; sourceTree = "<group>"; };
-		958F1F7E26B8D454000F5C8A /* Tile_Travertine_2_inch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tile_Travertine_2_inch.jpg; sourceTree = "<group>"; };
-		958F1F7F26B8D455000F5C8A /* Tile_Limestone_Large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tile_Limestone_Large.jpg; sourceTree = "<group>"; };
-		958F1F8026B8D455000F5C8A /* _CGM_Topboard_Birch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _CGM_Topboard_Birch.jpg; sourceTree = "<group>"; };
-		958F1F8126B8D455000F5C8A /* _Cladding_Stucco_White_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _Cladding_Stucco_White_1.jpg; sourceTree = "<group>"; };
-		958F1F8226B8D455000F5C8A /* Brick_Antique_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brick_Antique_01.jpg; sourceTree = "<group>"; };
-		958F1F8326B8D456000F5C8A /* Terrazzo_Tile_Light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terrazzo_Tile_Light.jpg; sourceTree = "<group>"; };
+		958F1F9B26B8F34E000F5C8A /* gymScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = gymScene.scn; sourceTree = "<group>"; };
+		958F1FA626B90C9C000F5C8A /* gymModel.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = gymModel.scnassets; sourceTree = "<group>"; };
+		958F1FA926B9147E000F5C8A /* person.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = person.scnassets; sourceTree = "<group>"; };
+		958F1FB726B93FF3000F5C8A /* desk.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = desk.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +52,10 @@
 		9542C08426B7E768006231DE = {
 			isa = PBXGroup;
 			children = (
+				958F1F9B26B8F34E000F5C8A /* gymScene.scn */,
+				958F1FB726B93FF3000F5C8A /* desk.scnassets */,
+				958F1FA926B9147E000F5C8A /* person.scnassets */,
+				958F1FA626B90C9C000F5C8A /* gymModel.scnassets */,
 				9542C08F26B7E768006231DE /* gym */,
 				9542C08E26B7E768006231DE /* Products */,
 			);
@@ -104,55 +72,17 @@
 		9542C08F26B7E768006231DE /* gym */ = {
 			isa = PBXGroup;
 			children = (
-				958F1EA926B838A3000F5C8A /* gymModel */,
-				958F1F9726B8D47A000F5C8A /* gym3D */,
+				9542C09426B7E768006231DE /* ViewController.swift */,
+				9542C09626B7E768006231DE /* Main.storyboard */,
 				9542C09026B7E768006231DE /* AppDelegate.swift */,
 				958F1F6F26B8604B000F5C8A /* person.mtl */,
 				958F1F6E26B8604B000F5C8A /* person.obj */,
 				9542C09226B7E768006231DE /* SceneDelegate.swift */,
-				9542C09426B7E768006231DE /* ViewController.swift */,
-				9542C09626B7E768006231DE /* Main.storyboard */,
 				9542C09926B7E76B006231DE /* Assets.xcassets */,
 				9542C09B26B7E76B006231DE /* LaunchScreen.storyboard */,
 				9542C09E26B7E76B006231DE /* Info.plist */,
 			);
 			path = gym;
-			sourceTree = "<group>";
-		};
-		958F1EA926B838A3000F5C8A /* gymModel */ = {
-			isa = PBXGroup;
-			children = (
-				958F1ED426B83DEC000F5C8A /* 師大體育館1F */,
-				958F1ED526B83DEC000F5C8A /* 師大體育館1F-1.jpg */,
-				958F1ED326B83DEC000F5C8A /* 師大體育館1F-2.jpg */,
-				958F1ED726B83DED000F5C8A /* 師大體育館1F.mtl */,
-				958F1ED826B83DED000F5C8A /* 師大體育館1F.obj */,
-			);
-			path = gymModel;
-			sourceTree = "<group>";
-		};
-		958F1F9726B8D47A000F5C8A /* gym3D */ = {
-			isa = PBXGroup;
-			children = (
-				958F1F8026B8D455000F5C8A /* _CGM_Topboard_Birch.jpg */,
-				958F1F8126B8D455000F5C8A /* _Cladding_Stucco_White_1.jpg */,
-				958F1F7526B8D451000F5C8A /* _Translucent_Glass_Block_Dark_1.jpg */,
-				958F1F7926B8D452000F5C8A /* Beton_glad.bmp */,
-				958F1F8226B8D455000F5C8A /* Brick_Antique_01.jpg */,
-				958F1F7C26B8D454000F5C8A /* Cladding_Stucco_White.jpg */,
-				958F1F7B26B8D453000F5C8A /* Metal_Seamed.jpg */,
-				958F1F7326B8D451000F5C8A /* model.mtl */,
-				958F1F7A26B8D453000F5C8A /* model.obj */,
-				958F1F7626B8D452000F5C8A /* Polished_Concrete_New.jpg */,
-				958F1F8326B8D456000F5C8A /* Terrazzo_Tile_Light.jpg */,
-				958F1F7F26B8D455000F5C8A /* Tile_Limestone_Large.jpg */,
-				958F1F7E26B8D454000F5C8A /* Tile_Travertine_2_inch.jpg */,
-				958F1F7826B8D452000F5C8A /* Tile_Travertine_2inch.jpg */,
-				958F1F7D26B8D454000F5C8A /* Translucent_Glass_Block_Dark.jpg */,
-				958F1F7726B8D452000F5C8A /* Translucent_Glass_Block_Dark1.jpg */,
-				958F1F7426B8D451000F5C8A /* Translucent_Glass_Safety.jpg */,
-			);
-			path = gym3D;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,33 +142,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958F1F8D26B8D456000F5C8A /* Cladding_Stucco_White.jpg in Resources */,
+				958F1FB826B93FF3000F5C8A /* desk.scnassets in Resources */,
 				9542C09D26B7E76B006231DE /* LaunchScreen.storyboard in Resources */,
-				958F1EDB26B83DED000F5C8A /* 師大體育館1F-1.jpg in Resources */,
-				958F1F9126B8D456000F5C8A /* _CGM_Topboard_Birch.jpg in Resources */,
 				9542C09A26B7E76B006231DE /* Assets.xcassets in Resources */,
-				958F1F8926B8D456000F5C8A /* Tile_Travertine_2inch.jpg in Resources */,
-				958F1F8E26B8D456000F5C8A /* Translucent_Glass_Block_Dark.jpg in Resources */,
 				958F1F7126B8604B000F5C8A /* person.mtl in Resources */,
-				958F1F9226B8D456000F5C8A /* _Cladding_Stucco_White_1.jpg in Resources */,
-				958F1F8B26B8D456000F5C8A /* model.obj in Resources */,
-				958F1F8A26B8D456000F5C8A /* Beton_glad.bmp in Resources */,
 				958F1F7026B8604B000F5C8A /* person.obj in Resources */,
-				958F1ED926B83DED000F5C8A /* 師大體育館1F-2.jpg in Resources */,
-				958F1F8626B8D456000F5C8A /* _Translucent_Glass_Block_Dark_1.jpg in Resources */,
-				958F1F9326B8D456000F5C8A /* Brick_Antique_01.jpg in Resources */,
-				958F1EDD26B83DED000F5C8A /* 師大體育館1F.mtl in Resources */,
-				958F1F8C26B8D456000F5C8A /* Metal_Seamed.jpg in Resources */,
+				958F1FA726B90C9C000F5C8A /* gymModel.scnassets in Resources */,
 				9542C09826B7E768006231DE /* Main.storyboard in Resources */,
-				958F1F8726B8D456000F5C8A /* Polished_Concrete_New.jpg in Resources */,
-				958F1F9026B8D456000F5C8A /* Tile_Limestone_Large.jpg in Resources */,
-				958F1F8526B8D456000F5C8A /* Translucent_Glass_Safety.jpg in Resources */,
-				958F1F8826B8D456000F5C8A /* Translucent_Glass_Block_Dark1.jpg in Resources */,
-				958F1F8F26B8D456000F5C8A /* Tile_Travertine_2_inch.jpg in Resources */,
-				958F1EDE26B83DED000F5C8A /* 師大體育館1F.obj in Resources */,
-				958F1EDA26B83DED000F5C8A /* 師大體育館1F in Resources */,
-				958F1F8426B8D456000F5C8A /* model.mtl in Resources */,
-				958F1F9426B8D456000F5C8A /* Terrazzo_Tile_Light.jpg in Resources */,
+				958F1FAA26B9147E000F5C8A /* person.scnassets in Resources */,
+				958F1F9C26B8F34E000F5C8A /* gymScene.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

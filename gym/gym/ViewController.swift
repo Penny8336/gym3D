@@ -16,15 +16,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // 1: Load .obj file
-        let scene = SCNScene(named: "model.obj")
+        let scene = SCNScene(named: "gymScene.scn")
         
-        // 2: Add camera node
-        let cameraNode = SCNNode()
-        cameraNode.camera = SCNCamera()
-        // 3: Place camera
-        cameraNode.position = SCNVector3(x: 0, y: -10, z: 150)
-        // 4: Set camera on scene
-        scene?.rootNode.addChildNode(cameraNode)
+//        2. setup camera
+        let cameraNode = scene?.rootNode.childNode(withName: "camera", recursively: false)
+        
+//        // 2: Add camera node
+//        let cameraNode = SCNNode()
+//        cameraNode.camera = SCNCamera()
+//        // 3: Place camera
+//        cameraNode.position = SCNVector3(x: 0, y: -10, z: 150)
+//        // 4: Set camera on scene
+//        scene?.rootNode.addChildNode(cameraNode)
         
         // 5: Adding light to scene
         let lightNode = SCNNode()
