@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9542C09126B7E768006231DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542C09026B7E768006231DE /* AppDelegate.swift */; };
+		9542C09326B7E768006231DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542C09226B7E768006231DE /* SceneDelegate.swift */; };
+		9542C09526B7E768006231DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542C09426B7E768006231DE /* ViewController.swift */; };
+		9542C09826B7E768006231DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9542C09626B7E768006231DE /* Main.storyboard */; };
+		9542C09A26B7E76B006231DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9542C09926B7E76B006231DE /* Assets.xcassets */; };
+		9542C09D26B7E76B006231DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9542C09B26B7E76B006231DE /* LaunchScreen.storyboard */; };
+		958F1ED926B83DED000F5C8A /* 師大體育館1F-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1ED326B83DEC000F5C8A /* 師大體育館1F-2.jpg */; };
+		958F1EDA26B83DED000F5C8A /* 師大體育館1F in Resources */ = {isa = PBXBuildFile; fileRef = 958F1ED426B83DEC000F5C8A /* 師大體育館1F */; };
+		958F1EDB26B83DED000F5C8A /* 師大體育館1F-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1ED526B83DEC000F5C8A /* 師大體育館1F-1.jpg */; };
+		958F1EDD26B83DED000F5C8A /* 師大體育館1F.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 958F1ED726B83DED000F5C8A /* 師大體育館1F.mtl */; };
+		958F1EDE26B83DED000F5C8A /* 師大體育館1F.obj in Resources */ = {isa = PBXBuildFile; fileRef = 958F1ED826B83DED000F5C8A /* 師大體育館1F.obj */; };
+		958F1F7026B8604B000F5C8A /* person.obj in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F6E26B8604B000F5C8A /* person.obj */; };
+		958F1F7126B8604B000F5C8A /* person.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F6F26B8604B000F5C8A /* person.mtl */; };
+		958F1F8426B8D456000F5C8A /* model.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7326B8D451000F5C8A /* model.mtl */; };
+		958F1F8526B8D456000F5C8A /* Translucent_Glass_Safety.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7426B8D451000F5C8A /* Translucent_Glass_Safety.jpg */; };
+		958F1F8626B8D456000F5C8A /* _Translucent_Glass_Block_Dark_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7526B8D451000F5C8A /* _Translucent_Glass_Block_Dark_1.jpg */; };
+		958F1F8726B8D456000F5C8A /* Polished_Concrete_New.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7626B8D452000F5C8A /* Polished_Concrete_New.jpg */; };
+		958F1F8826B8D456000F5C8A /* Translucent_Glass_Block_Dark1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7726B8D452000F5C8A /* Translucent_Glass_Block_Dark1.jpg */; };
+		958F1F8926B8D456000F5C8A /* Tile_Travertine_2inch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7826B8D452000F5C8A /* Tile_Travertine_2inch.jpg */; };
+		958F1F8A26B8D456000F5C8A /* Beton_glad.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7926B8D452000F5C8A /* Beton_glad.bmp */; };
+		958F1F8B26B8D456000F5C8A /* model.obj in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7A26B8D453000F5C8A /* model.obj */; };
+		958F1F8C26B8D456000F5C8A /* Metal_Seamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7B26B8D453000F5C8A /* Metal_Seamed.jpg */; };
+		958F1F8D26B8D456000F5C8A /* Cladding_Stucco_White.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7C26B8D454000F5C8A /* Cladding_Stucco_White.jpg */; };
+		958F1F8E26B8D456000F5C8A /* Translucent_Glass_Block_Dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7D26B8D454000F5C8A /* Translucent_Glass_Block_Dark.jpg */; };
+		958F1F8F26B8D456000F5C8A /* Tile_Travertine_2_inch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7E26B8D454000F5C8A /* Tile_Travertine_2_inch.jpg */; };
+		958F1F9026B8D456000F5C8A /* Tile_Limestone_Large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F7F26B8D455000F5C8A /* Tile_Limestone_Large.jpg */; };
+		958F1F9126B8D456000F5C8A /* _CGM_Topboard_Birch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F8026B8D455000F5C8A /* _CGM_Topboard_Birch.jpg */; };
+		958F1F9226B8D456000F5C8A /* _Cladding_Stucco_White_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F8126B8D455000F5C8A /* _Cladding_Stucco_White_1.jpg */; };
+		958F1F9326B8D456000F5C8A /* Brick_Antique_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F8226B8D455000F5C8A /* Brick_Antique_01.jpg */; };
+		958F1F9426B8D456000F5C8A /* Terrazzo_Tile_Light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F8326B8D456000F5C8A /* Terrazzo_Tile_Light.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9542C08D26B7E768006231DE /* gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gym.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9542C09026B7E768006231DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9542C09226B7E768006231DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9542C09426B7E768006231DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9542C09726B7E768006231DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9542C09926B7E76B006231DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9542C09C26B7E76B006231DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9542C09E26B7E76B006231DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958F1ED326B83DEC000F5C8A /* 師大體育館1F-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "師大體育館1F-2.jpg"; sourceTree = "<group>"; };
+		958F1ED426B83DEC000F5C8A /* 師大體育館1F */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "師大體育館1F"; sourceTree = "<group>"; };
+		958F1ED526B83DEC000F5C8A /* 師大體育館1F-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "師大體育館1F-1.jpg"; sourceTree = "<group>"; };
+		958F1ED726B83DED000F5C8A /* 師大體育館1F.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "師大體育館1F.mtl"; sourceTree = "<group>"; };
+		958F1ED826B83DED000F5C8A /* 師大體育館1F.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "師大體育館1F.obj"; sourceTree = "<group>"; };
+		958F1F6E26B8604B000F5C8A /* person.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = person.obj; sourceTree = "<group>"; };
+		958F1F6F26B8604B000F5C8A /* person.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = person.mtl; sourceTree = "<group>"; };
+		958F1F7326B8D451000F5C8A /* model.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model.mtl; sourceTree = "<group>"; };
+		958F1F7426B8D451000F5C8A /* Translucent_Glass_Safety.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Translucent_Glass_Safety.jpg; sourceTree = "<group>"; };
+		958F1F7526B8D451000F5C8A /* _Translucent_Glass_Block_Dark_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _Translucent_Glass_Block_Dark_1.jpg; sourceTree = "<group>"; };
+		958F1F7626B8D452000F5C8A /* Polished_Concrete_New.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Polished_Concrete_New.jpg; sourceTree = "<group>"; };
+		958F1F7726B8D452000F5C8A /* Translucent_Glass_Block_Dark1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Translucent_Glass_Block_Dark1.jpg; sourceTree = "<group>"; };
+		958F1F7826B8D452000F5C8A /* Tile_Travertine_2inch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tile_Travertine_2inch.jpg; sourceTree = "<group>"; };
+		958F1F7926B8D452000F5C8A /* Beton_glad.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Beton_glad.bmp; sourceTree = "<group>"; };
+		958F1F7A26B8D453000F5C8A /* model.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model.obj; sourceTree = "<group>"; };
+		958F1F7B26B8D453000F5C8A /* Metal_Seamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Metal_Seamed.jpg; sourceTree = "<group>"; };
+		958F1F7C26B8D454000F5C8A /* Cladding_Stucco_White.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cladding_Stucco_White.jpg; sourceTree = "<group>"; };
+		958F1F7D26B8D454000F5C8A /* Translucent_Glass_Block_Dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Translucent_Glass_Block_Dark.jpg; sourceTree = "<group>"; };
+		958F1F7E26B8D454000F5C8A /* Tile_Travertine_2_inch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tile_Travertine_2_inch.jpg; sourceTree = "<group>"; };
+		958F1F7F26B8D455000F5C8A /* Tile_Limestone_Large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tile_Limestone_Large.jpg; sourceTree = "<group>"; };
+		958F1F8026B8D455000F5C8A /* _CGM_Topboard_Birch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _CGM_Topboard_Birch.jpg; sourceTree = "<group>"; };
+		958F1F8126B8D455000F5C8A /* _Cladding_Stucco_White_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _Cladding_Stucco_White_1.jpg; sourceTree = "<group>"; };
+		958F1F8226B8D455000F5C8A /* Brick_Antique_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brick_Antique_01.jpg; sourceTree = "<group>"; };
+		958F1F8326B8D456000F5C8A /* Terrazzo_Tile_Light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Terrazzo_Tile_Light.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9542C08A26B7E768006231DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9542C08426B7E768006231DE = {
+			isa = PBXGroup;
+			children = (
+				9542C08F26B7E768006231DE /* gym */,
+				9542C08E26B7E768006231DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9542C08E26B7E768006231DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9542C08D26B7E768006231DE /* gym.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9542C08F26B7E768006231DE /* gym */ = {
+			isa = PBXGroup;
+			children = (
+				958F1EA926B838A3000F5C8A /* gymModel */,
+				958F1F9726B8D47A000F5C8A /* gym3D */,
+				9542C09026B7E768006231DE /* AppDelegate.swift */,
+				958F1F6F26B8604B000F5C8A /* person.mtl */,
+				958F1F6E26B8604B000F5C8A /* person.obj */,
+				9542C09226B7E768006231DE /* SceneDelegate.swift */,
+				9542C09426B7E768006231DE /* ViewController.swift */,
+				9542C09626B7E768006231DE /* Main.storyboard */,
+				9542C09926B7E76B006231DE /* Assets.xcassets */,
+				9542C09B26B7E76B006231DE /* LaunchScreen.storyboard */,
+				9542C09E26B7E76B006231DE /* Info.plist */,
+			);
+			path = gym;
+			sourceTree = "<group>";
+		};
+		958F1EA926B838A3000F5C8A /* gymModel */ = {
+			isa = PBXGroup;
+			children = (
+				958F1ED426B83DEC000F5C8A /* 師大體育館1F */,
+				958F1ED526B83DEC000F5C8A /* 師大體育館1F-1.jpg */,
+				958F1ED326B83DEC000F5C8A /* 師大體育館1F-2.jpg */,
+				958F1ED726B83DED000F5C8A /* 師大體育館1F.mtl */,
+				958F1ED826B83DED000F5C8A /* 師大體育館1F.obj */,
+			);
+			path = gymModel;
+			sourceTree = "<group>";
+		};
+		958F1F9726B8D47A000F5C8A /* gym3D */ = {
+			isa = PBXGroup;
+			children = (
+				958F1F8026B8D455000F5C8A /* _CGM_Topboard_Birch.jpg */,
+				958F1F8126B8D455000F5C8A /* _Cladding_Stucco_White_1.jpg */,
+				958F1F7526B8D451000F5C8A /* _Translucent_Glass_Block_Dark_1.jpg */,
+				958F1F7926B8D452000F5C8A /* Beton_glad.bmp */,
+				958F1F8226B8D455000F5C8A /* Brick_Antique_01.jpg */,
+				958F1F7C26B8D454000F5C8A /* Cladding_Stucco_White.jpg */,
+				958F1F7B26B8D453000F5C8A /* Metal_Seamed.jpg */,
+				958F1F7326B8D451000F5C8A /* model.mtl */,
+				958F1F7A26B8D453000F5C8A /* model.obj */,
+				958F1F7626B8D452000F5C8A /* Polished_Concrete_New.jpg */,
+				958F1F8326B8D456000F5C8A /* Terrazzo_Tile_Light.jpg */,
+				958F1F7F26B8D455000F5C8A /* Tile_Limestone_Large.jpg */,
+				958F1F7E26B8D454000F5C8A /* Tile_Travertine_2_inch.jpg */,
+				958F1F7826B8D452000F5C8A /* Tile_Travertine_2inch.jpg */,
+				958F1F7D26B8D454000F5C8A /* Translucent_Glass_Block_Dark.jpg */,
+				958F1F7726B8D452000F5C8A /* Translucent_Glass_Block_Dark1.jpg */,
+				958F1F7426B8D451000F5C8A /* Translucent_Glass_Safety.jpg */,
+			);
+			path = gym3D;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9542C08C26B7E768006231DE /* gym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9542C0A126B7E76B006231DE /* Build configuration list for PBXNativeTarget "gym" */;
+			buildPhases = (
+				9542C08926B7E768006231DE /* Sources */,
+				9542C08A26B7E768006231DE /* Frameworks */,
+				9542C08B26B7E768006231DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gym;
+			productName = gym;
+			productReference = 9542C08D26B7E768006231DE /* gym.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9542C08526B7E768006231DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9542C08C26B7E768006231DE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9542C08826B7E768006231DE /* Build configuration list for PBXProject "gym" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9542C08426B7E768006231DE;
+			productRefGroup = 9542C08E26B7E768006231DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9542C08C26B7E768006231DE /* gym */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9542C08B26B7E768006231DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958F1F8D26B8D456000F5C8A /* Cladding_Stucco_White.jpg in Resources */,
+				9542C09D26B7E76B006231DE /* LaunchScreen.storyboard in Resources */,
+				958F1EDB26B83DED000F5C8A /* 師大體育館1F-1.jpg in Resources */,
+				958F1F9126B8D456000F5C8A /* _CGM_Topboard_Birch.jpg in Resources */,
+				9542C09A26B7E76B006231DE /* Assets.xcassets in Resources */,
+				958F1F8926B8D456000F5C8A /* Tile_Travertine_2inch.jpg in Resources */,
+				958F1F8E26B8D456000F5C8A /* Translucent_Glass_Block_Dark.jpg in Resources */,
+				958F1F7126B8604B000F5C8A /* person.mtl in Resources */,
+				958F1F9226B8D456000F5C8A /* _Cladding_Stucco_White_1.jpg in Resources */,
+				958F1F8B26B8D456000F5C8A /* model.obj in Resources */,
+				958F1F8A26B8D456000F5C8A /* Beton_glad.bmp in Resources */,
+				958F1F7026B8604B000F5C8A /* person.obj in Resources */,
+				958F1ED926B83DED000F5C8A /* 師大體育館1F-2.jpg in Resources */,
+				958F1F8626B8D456000F5C8A /* _Translucent_Glass_Block_Dark_1.jpg in Resources */,
+				958F1F9326B8D456000F5C8A /* Brick_Antique_01.jpg in Resources */,
+				958F1EDD26B83DED000F5C8A /* 師大體育館1F.mtl in Resources */,
+				958F1F8C26B8D456000F5C8A /* Metal_Seamed.jpg in Resources */,
+				9542C09826B7E768006231DE /* Main.storyboard in Resources */,
+				958F1F8726B8D456000F5C8A /* Polished_Concrete_New.jpg in Resources */,
+				958F1F9026B8D456000F5C8A /* Tile_Limestone_Large.jpg in Resources */,
+				958F1F8526B8D456000F5C8A /* Translucent_Glass_Safety.jpg in Resources */,
+				958F1F8826B8D456000F5C8A /* Translucent_Glass_Block_Dark1.jpg in Resources */,
+				958F1F8F26B8D456000F5C8A /* Tile_Travertine_2_inch.jpg in Resources */,
+				958F1EDE26B83DED000F5C8A /* 師大體育館1F.obj in Resources */,
+				958F1EDA26B83DED000F5C8A /* 師大體育館1F in Resources */,
+				958F1F8426B8D456000F5C8A /* model.mtl in Resources */,
+				958F1F9426B8D456000F5C8A /* Terrazzo_Tile_Light.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9542C08926B7E768006231DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9542C09526B7E768006231DE /* ViewController.swift in Sources */,
+				9542C09126B7E768006231DE /* AppDelegate.swift in Sources */,
+				9542C09326B7E768006231DE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9542C09626B7E768006231DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9542C09726B7E768006231DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9542C09B26B7E76B006231DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9542C09C26B7E76B006231DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9542C09F26B7E76B006231DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9542C0A026B7E76B006231DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9542C0A226B7E76B006231DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gym/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.gym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9542C0A326B7E76B006231DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gym/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.gym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9542C08826B7E768006231DE /* Build configuration list for PBXProject "gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9542C09F26B7E76B006231DE /* Debug */,
+				9542C0A026B7E76B006231DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9542C0A126B7E76B006231DE /* Build configuration list for PBXNativeTarget "gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9542C0A226B7E76B006231DE /* Debug */,
+				9542C0A326B7E76B006231DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9542C08526B7E768006231DE /* Project object */;
+}
