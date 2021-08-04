@@ -14,6 +14,7 @@
 		9542C09826B7E768006231DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9542C09626B7E768006231DE /* Main.storyboard */; };
 		9542C09A26B7E76B006231DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9542C09926B7E76B006231DE /* Assets.xcassets */; };
 		9542C09D26B7E76B006231DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9542C09B26B7E76B006231DE /* LaunchScreen.storyboard */; };
+		957D6BA026BABF8000B69FA2 /* 1F.scn in Resources */ = {isa = PBXBuildFile; fileRef = 957D6B9F26BABF8000B69FA2 /* 1F.scn */; };
 		958F1F7026B8604B000F5C8A /* person.obj in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F6E26B8604B000F5C8A /* person.obj */; };
 		958F1F7126B8604B000F5C8A /* person.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F6F26B8604B000F5C8A /* person.mtl */; };
 		958F1F9C26B8F34E000F5C8A /* gymScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F9B26B8F34E000F5C8A /* gymScene.scn */; };
@@ -33,6 +34,7 @@
 		9542C09926B7E76B006231DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9542C09C26B7E76B006231DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9542C09E26B7E76B006231DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957D6B9F26BABF8000B69FA2 /* 1F.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 1F.scn; sourceTree = "<group>"; };
 		958F1F6E26B8604B000F5C8A /* person.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = person.obj; sourceTree = "<group>"; };
 		958F1F6F26B8604B000F5C8A /* person.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = person.mtl; sourceTree = "<group>"; };
 		958F1F9B26B8F34E000F5C8A /* gymScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = gymScene.scn; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		9542C08426B7E768006231DE = {
 			isa = PBXGroup;
 			children = (
+				957D6B9F26BABF8000B69FA2 /* 1F.scn */,
 				9593E96A26BABBBE0020E4BD /* B1.scnassets */,
 				9593E95F26BABB230020E4BD /* 1F.scnassets */,
 				950A6A6726BA5113003A0FD0 /* gymAppearance.scnassets */,
@@ -155,6 +158,7 @@
 				958F1F7026B8604B000F5C8A /* person.obj in Resources */,
 				9542C09826B7E768006231DE /* Main.storyboard in Resources */,
 				958F1FAA26B9147E000F5C8A /* person.scnassets in Resources */,
+				957D6BA026BABF8000B69FA2 /* 1F.scn in Resources */,
 				950A6A6826BA5113003A0FD0 /* gymAppearance.scnassets in Resources */,
 				9593E96B26BABBBE0020E4BD /* B1.scnassets in Resources */,
 				9593E96026BABB230020E4BD /* 1F.scnassets in Resources */,
