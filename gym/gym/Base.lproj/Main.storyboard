@@ -17,15 +17,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" allowsCameraControl="YES" autoenablesDefaultLighting="YES" translatesAutoresizingMaskIntoConstraints="NO" id="37g-kx-ahR">
-                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="418"/>
                             </sceneKitView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="37g-kx-ahR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7Rh-wI-gya"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="37g-kx-ahR" secondAttribute="bottom" constant="100" id="JTf-dQ-wZe"/>
                             <constraint firstItem="37g-kx-ahR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VM1-xW-eaF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="37g-kx-ahR" secondAttribute="bottom" constant="400" id="iLE-bk-jDh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="37g-kx-ahR" secondAttribute="trailing" id="inK-uH-UcU"/>
                         </constraints>
                     </view>

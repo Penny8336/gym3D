@@ -19,6 +19,8 @@
 		958F1F9C26B8F34E000F5C8A /* gymScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 958F1F9B26B8F34E000F5C8A /* gymScene.scn */; };
 		958F1FAA26B9147E000F5C8A /* person.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 958F1FA926B9147E000F5C8A /* person.scnassets */; };
 		958F1FB826B93FF3000F5C8A /* desk.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 958F1FB726B93FF3000F5C8A /* desk.scnassets */; };
+		9593E96026BABB230020E4BD /* 1F.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9593E95F26BABB230020E4BD /* 1F.scnassets */; };
+		9593E96B26BABBBE0020E4BD /* B1.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9593E96A26BABBBE0020E4BD /* B1.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		958F1F9B26B8F34E000F5C8A /* gymScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = gymScene.scn; sourceTree = "<group>"; };
 		958F1FA926B9147E000F5C8A /* person.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = person.scnassets; sourceTree = "<group>"; };
 		958F1FB726B93FF3000F5C8A /* desk.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = desk.scnassets; sourceTree = "<group>"; };
+		9593E95F26BABB230020E4BD /* 1F.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = 1F.scnassets; sourceTree = "<group>"; };
+		9593E96A26BABBBE0020E4BD /* B1.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = B1.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		9542C08426B7E768006231DE = {
 			isa = PBXGroup;
 			children = (
+				9593E96A26BABBBE0020E4BD /* B1.scnassets */,
+				9593E95F26BABB230020E4BD /* 1F.scnassets */,
 				950A6A6726BA5113003A0FD0 /* gymAppearance.scnassets */,
 				958F1F9B26B8F34E000F5C8A /* gymScene.scn */,
 				958F1FB726B93FF3000F5C8A /* desk.scnassets */,
@@ -150,6 +156,8 @@
 				9542C09826B7E768006231DE /* Main.storyboard in Resources */,
 				958F1FAA26B9147E000F5C8A /* person.scnassets in Resources */,
 				950A6A6826BA5113003A0FD0 /* gymAppearance.scnassets in Resources */,
+				9593E96B26BABBBE0020E4BD /* B1.scnassets in Resources */,
+				9593E96026BABB230020E4BD /* 1F.scnassets in Resources */,
 				958F1F9C26B8F34E000F5C8A /* gymScene.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
