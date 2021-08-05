@@ -9,7 +9,7 @@ import UIKit
 import SceneKit
 
 class ViewController: UIViewController {
-    
+    var spotLightDic: [String:Int] = ["庫房":100]
     
     @IBOutlet weak var firstFloorSceneButton: UIButton!
     @IBOutlet weak var gymAppearanceSceneButton: UIButton!
@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var sceneView: SCNView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print(spotLightDic["庫房"] ?? Int())
         // 1: Load .obj file
         let scene = SCNScene(named: "gymScene.scn")
         
