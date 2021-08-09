@@ -7,15 +7,37 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class ViewController: UIViewController{
     
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//        print(UIScreen.main.bounds.width)
+//        let yourWidth = (UIScreen.main.bounds.width) - 100
+//        print(yourWidth)
+//        return CGSize(width: yourWidth, height: 120)
+//    }
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    var floorImages:[String] = ["gym", "B1", "1F", "2F"]
 
+    @IBOutlet weak var topCollectionView: UICollectionView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+                
+        let screenSize = UIScreen.main.bounds
+        topCollectionView.dataSource = self
+        topCollectionView.delegate = self
+        print(screenSize)
+        topCollectionView.frame.size.width = screenSize.width - 40
+    
+    }
+
+}
+
+extension ViewController: UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return floorImages.count
     }
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! floorCollectionViewCell
         
         cell.floorImageView.image = UIImage(named: floorImages[indexPath.row])
@@ -23,17 +45,17 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         return cell
     }
-    
-    var floorImages:[String] = ["gym", "B1", "1F", "2F"]
+}
 
-    @IBOutlet weak var topCollectionView: UICollectionView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        topCollectionView.dataSource = self
-        topCollectionView.delegate = self
+extension ViewController: UICollectionViewDelegate{
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print(floorImages[indexPath.row])
     }
+}
 
+extension ViewController: UICollectionViewDelegateFlowLayout{
+//    let Clayout = UICollectionViewFlowLayout()
+//    layout.sectionInset = UIEdgeInsetsMake(5, 5, 5, 5);
 
 }
 
